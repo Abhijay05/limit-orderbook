@@ -1,0 +1,31 @@
+{
+  "name": "orderbook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "dev": "ts-node-dev --respawn index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@types/body-parser": "^1.19.6",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.0.5",
+    "jest": "^30.0.5",
+    "nodemon": "^3.1.10",
+    "superset": "^2.0.1",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
